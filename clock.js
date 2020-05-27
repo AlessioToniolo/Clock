@@ -22,4 +22,4 @@ function tickClock() {
   clockSection.textContent = getTime();
 }
 tickClock();
-setInterval(() => clockSection.textContent = getTime(), 1000);
+setInterval(tickClock, 1000);
