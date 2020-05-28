@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Clock</title>
-        <link rel="icon" type="image/png" href="clock.png">
-        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-        <link rel='stylesheet' href='styles.css'>
-      <script src="https://kit.fontawesome.com/63bdd2ffd6.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <center class="title">Clock</center>
-        <section id='clock'>
-        </section>
-      <div class="prefrences">  
-      <div class="switch">
-          <div class="switch-body">
-            <div class="toggle"></div>
-          </div>
-          <label>Display time in military style format</label>
-          <input type="checkbox" name="hello">
+
+<head>
+  <title>Clock</title>
+  <link rel="icon" type="image/png" href="clock.png">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link rel='stylesheet' href='styles.css'>
+  <script src="https://kit.fontawesome.com/63bdd2ffd6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <center class="title">Clock</center>
+  <section id='clock'>
+  </section>
+  <div class="prefrences">
+    <div class="switch">
+      <div class="switch-body">
+        <div class="toggle"></div>
       </div>
-       <div class="switch">
-          <div class="switch-body">
-            <div class="toggle"></div>
-          </div>
-          <label>Use the UTC time (only avaliable with an internet connection)</label>
-          <input type="checkbox" name="hello">
+      <label>Display time in military style format</label>
+      <input type="checkbox" name="hello">
+    </div>
+    <div class="switch">
+      <div class="switch-body">
+        <div class="toggle"></div>
       </div>
-        </div>
-      <center class="download">Download Clock</center>
-      <div class="download-area"><button download="clock.exe"><div class="button"><i class="fab fa-windows"></i><span>Download for Windows</span></div></button></div>
-      <center class="download-info">Mac and Linux coming soon!</center>
-        <script src='clock.js'></script>
-    </body>
+      <label>Use the UTC time (only avaliable with an internet connection)</label>
+      <input type="checkbox" name="hello">
+    </div>
+  </div>
+  <center class="download">Download Clock</center>
+  <div class="download-area"><a href="clock.exe" download="clock.exe"><button download="clock.exe">
+        <div class="button"><i class="fab fa-windows"></i><span>Download for Windows</span></div>
+      </button></a></div>
+  <center class="download-info">Mac and Linux coming soon!</center>
+  <script src='clock.js'></script>
+</body>
+
 </html>

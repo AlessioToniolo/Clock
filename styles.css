@@ -1,17 +1,17 @@
 body {
   background: #384047;
   font-family: sans-serif;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .title {
-  font-family:sanfrancisco;
+  font-family: sanfrancisco;
   font-size: 40px;
-  color:white;
-  margin-top:75px;
+  color: white;
+  margin-top: 75px;
 }
 
 section {
@@ -24,22 +24,22 @@ section {
   text-align: center;
   font-family: 'VT323', monospace;
   font-size: 4em;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .prefrences {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 60px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .switch {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
 }
 
 .switch:first-child {
@@ -47,16 +47,16 @@ section {
 }
 
 input[type=checkbox] {
-    display: none;
-  }
+  display: none;
+}
 
 .switch-body {
   background-color: #ddd;
-  width:48px;
-  min-width:48px;
+  width: 48px;
+  min-width: 48px;
   border-radius: 24px;
   transition: all 0.2s ease;
-  box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .toggle {
@@ -64,7 +64,7 @@ input[type=checkbox] {
   height: 24px;
   background-color: white;
   border-radius: 50%;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   transition: all 0.25s ease;
 }
 
@@ -76,82 +76,83 @@ input[type=checkbox] {
   transform: translateX(100%);
 }
 
- @font-face {
+@font-face {
   font-family: sanfrancisco;
-  src: url("SF-UI-Display-Black.ttf"); 
-} 
+  src: url("SF-UI-Display-Black.ttf");
+}
 
 .switch label {
   font-size: 20px;
   color: white;
   margin-left: 20px;
-  font-family:sanfrancisco;
-  letter-spacing:0.5px;
+  font-family: sanfrancisco;
+  letter-spacing: 0.5px;
 }
 
 .download {
-  font-family:sanfrancisco;
-  font-size:28px;
-  color:white;
+  font-family: sanfrancisco;
+  font-size: 28px;
+  color: white;
   margin-top: 40px;
-  margin-bottom:34px;
+  margin-bottom: 34px;
 }
 
 button {
   width: 200px;
-  padding:20px;
-  background-color:white;
-  margin-bottom:17px;
-    box-shadow:0;
-  border:none;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 17px;
+  box-shadow: 0;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .download-area {
-  width:100%;
-  display:flex;
-  justify-content:center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 i {
-  color:#3498DB;
-  font-size:24px;
+  color: #3498DB;
+  font-size: 24px;
 }
 
 .button {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  outline:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
 }
 
 span {
   color: #3498DB;
   font-size: 15px;
-  letter-spacing:0.5px;
-  font-family:sanfrancisco;
+  letter-spacing: 0.5px;
+  font-family: sanfrancisco;
 }
 
 .download-info {
-  margin-top:20px;
-  color:white;
-  font-family:sanfrancisco;
+  margin-top: 20px;
+  color: white;
+  font-family: sanfrancisco;
 }
 
 button:hover {
-    box-shadow: inset 0 15px 20px 0 rgba(0,0,0,0.1);
+  box-shadow: inset 0 15px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 button:active {
-  box-shadow:0;
-  outline:0;
-  border:none;
+  box-shadow: 0;
+  outline: 0;
+  border: none;
 }
 
 button:change {
-  box-shadow:0;
-  outline:0;
-  border:none;
+  box-shadow: 0;
+  outline: 0;
+  border: none;
 }
 
 /* Remove outline for non-keyboard :focus */
