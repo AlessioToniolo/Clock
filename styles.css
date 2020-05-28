@@ -1,7 +1,12 @@
 body {
   background: #384047;
   font-family: sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  box-sizing:border-box;
 }
+
 section {
   background: #fff;
   padding: 1em;
@@ -12,4 +17,65 @@ section {
   text-align: center;
   font-family: 'VT323', monospace;
   font-size: 4em;
+}
+
+.prefrences {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-top: 60px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.switch {
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.switch:first-child {
+  margin-bottom: 15px;
+}
+
+input[type=checkbox] {
+    display: none;
+  }
+
+.switch-body {
+  background-color: #ddd;
+  width:48px;
+  border-radius: 24px;
+  transition: all 0.2s ease;
+  box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+.toggle {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  transition: all 0.25s ease;
+}
+
+.switch.active .switch-body {
+  background-color: green;
+}
+
+.switch.active .switch-body .toggle {
+  transform: translateX(100%);
+}
+
+ @font-face {
+  font-family: sanfrancisco;
+  src: url("SF-UI-Display-Black.ttf"); 
+} 
+
+.switch label {
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+  font-family:sanfrancisco;
+  letter-spacing:0.5px;
 }
