@@ -7,7 +7,7 @@ body {
   box-sizing:border-box;
 }
 
-center {
+.title {
   font-family:sanfrancisco;
   font-size: 40px;
   color:white;
@@ -87,4 +87,74 @@ input[type=checkbox] {
   margin-left: 20px;
   font-family:sanfrancisco;
   letter-spacing:0.5px;
+}
+
+.download {
+  font-family:sanfrancisco;
+  font-size:28px;
+  color:white;
+  margin-top: 40px;
+  margin-bottom:34px;
+}
+
+button {
+  width: 200px;
+  padding:20px;
+  background-color:white;
+  margin-bottom:17px;
+    box-shadow:0;
+  border:none;
+  border-radius: 5px;
+}
+
+.download-area {
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+i {
+  color:#3498DB;
+  font-size:24px;
+}
+
+.button {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  outline:0;
+}
+
+span {
+  color: #3498DB;
+  font-size: 15px;
+  letter-spacing:0.5px;
+  font-family:sanfrancisco;
+}
+
+.download-info {
+  margin-top:20px;
+  color:white;
+  font-family:sanfrancisco;
+}
+
+button:hover {
+    box-shadow: inset 0 15px 20px 0 rgba(0,0,0,0.1);
+}
+
+button:active {
+  box-shadow:0;
+  outline:0;
+  border:none;
+}
+
+button:change {
+  box-shadow:0;
+  outline:0;
+  border:none;
+}
+
+/* Remove outline for non-keyboard :focus */
+button:focus:not(.focus-visible) {
+  outline: none;
 }
